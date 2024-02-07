@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "834276094241",
-    "project_id": "pokedesk-gaabrenno",
-    "storage_bucket": "pokedesk-gaabrenno.appspot.com"
+    "project_number": "1039226604953",
+    "project_id": "pokedesk",
+    "storage_bucket": "pokedesk.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:834276094241:android:e8c8851987fe9f64034e60",
+        "mobilesdk_app_id": "1:1039226604953:android:33e517b5a6f63ff6461708",
         "android_client_info": {
           "package_name": "com.example.pokedesk"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCpBtMesjvKvnjsYHj_uD4MixMIsVqFPyM"
+          "current_key": "AIzaSyCiwDXRgiq6s_pmx9QcjIDUSc7ONPwh7Hs"
         }
       ],
       "services": {

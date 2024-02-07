@@ -20,12 +20,10 @@ class _HomePageState extends State<HomePage> {
         future: pegarPokemon(),
         builder: (context, snapshot){
           if(snapshot.hasData){
-            print (snapshot.data);
             return ListView.builder(
               itemCount: snapshot.data!['results'].length,
               itemBuilder: (context, index) {
                 var pokemon = snapshot.data!['results'][index];
-                print (snapshot.data);
                 return ListTile(
                   leading: CircleAvatar(
                     child: Text(pokemon['name'].toString()),

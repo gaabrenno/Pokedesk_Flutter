@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyDop2ZQDyqRmh4VrpClm0snf7ODKlJLf8o</string>
+	<string>AIzaSyDhuZcypEjovkrBRtS46crgRkLqj5pgCzs</string>
 	<key>GCM_SENDER_ID</key>
-	<string>834276094241</string>
+	<string>1039226604953</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.pokedesk</string>
+	<string>com.example.pokedeskflutter</string>
 	<key>PROJECT_ID</key>
-	<string>pokedesk-gaabrenno</string>
+	<string>pokedesk</string>
 	<key>STORAGE_BUCKET</key>
-	<string>pokedesk-gaabrenno.appspot.com</string>
+	<string>pokedesk.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:834276094241:ios:1d253a280b7f37e9034e60</string>
+	<string>1:1039226604953:ios:ab4a057505a3fbed461708</string>
 </dict>
 </plist>

@@ -50,19 +50,19 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCpBtMesjvKvnjsYHj_uD4MixMIsVqFPyM',
-    appId: '1:834276094241:android:e8c8851987fe9f64034e60',
-    messagingSenderId: '834276094241',
-    projectId: 'pokedesk-gaabrenno',
-    storageBucket: 'pokedesk-gaabrenno.appspot.com',
+    apiKey: 'AIzaSyCiwDXRgiq6s_pmx9QcjIDUSc7ONPwh7Hs',
+    appId: '1:1039226604953:android:33e517b5a6f63ff6461708',
+    messagingSenderId: '1039226604953',
+    projectId: 'pokedesk',
+    storageBucket: 'pokedesk.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDop2ZQDyqRmh4VrpClm0snf7ODKlJLf8o',
-    appId: '1:834276094241:ios:1d253a280b7f37e9034e60',
-    messagingSenderId: '834276094241',
-    projectId: 'pokedesk-gaabrenno',
-    storageBucket: 'pokedesk-gaabrenno.appspot.com',
-    iosBundleId: 'com.example.pokedesk',
+    apiKey: 'AIzaSyDhuZcypEjovkrBRtS46crgRkLqj5pgCzs',
+    appId: '1:1039226604953:ios:ab4a057505a3fbed461708',
+    messagingSenderId: '1039226604953',
+    projectId: 'pokedesk',
+    storageBucket: 'pokedesk.appspot.com',
+    iosBundleId: 'com.example.pokedeskflutter',
   );
 }

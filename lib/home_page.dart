@@ -20,18 +20,21 @@ class _HomePageState extends State<HomePage> {
         future: pegarPokemon(),
         builder: (context, snapshot){
           if(snapshot.hasData){
+            print (snapshot.data);
             return ListView.builder(
-                itemCount: snapshot.data!.length,
-                itemBuilder: (context, index){
-                  var pokemon = snapshot.data![index];
-              return ListTile(
-                leading: CircleAvatar(
-                  child: Text(pokemon[index]['id'].toString()),
-                ),
-                title: Text(pokemon[index]['id']),
-                subtitle: Text(pokemon['website']),
-              );
-            });
+              itemCount: snapshot.data!['results'].length,
+              itemBuilder: (context, index) {
+                var pokemon = snapshot.data!['results'][index];
+                print (snapshot.data);
+                return ListTile(
+                  leading: CircleAvatar(
+                    child: Text(pokemon['name'].toString()),
+                  ),
+                  title: Text(pokemon['name']),
+                  subtitle: Text(pokemon['url']),
+                );
+              },
+            );
           }else if(snapshot.hasError){
             return Center(child:Text('${snapshot.error}'));
           }
@@ -47,8 +50,7 @@ class _HomePageState extends State<HomePage> {
     if(resposta.statusCode == 200){
       return jsonDecode(resposta.body);
     } else{
-      throw Exception('Não foi possivel carregar os usuários');
+      throw Exception('Não foi possivel carregar os Pokemon');
     }
   }
-
 }
